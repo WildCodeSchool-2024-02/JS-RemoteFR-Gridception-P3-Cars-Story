@@ -14,12 +14,17 @@ export default function Home() {
           <Link to="/sports-cars">Sports Cars</Link>
         </section>
 
-        <section id="carousel-old-new-cars">Old and New Cars</section>
+        <section id="caroussel-Old-and-new-cars">
+          <Link to="/Old-and-New-Cars">Old and New Cars</Link>
+         </section> 
 
-        <section id="cars-life">Life of Cars</section>
+        <section id="cars-life">
+          <Link to="/Life-of-Cars">Life Of Cars</Link>
+        </section>
+
 
         <section id="chat-electric-cars">
-          Chattez avec moi à propos des voitures électriques (avec respect)
+          Chat with me about electric cars (With Respect)
         </section>
       </main>
 

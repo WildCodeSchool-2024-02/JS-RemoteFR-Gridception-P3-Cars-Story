@@ -6,8 +6,10 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import Home from "./pages/Home";
 import SportsCars from "./pages/SportsCars";
+import OldandNewCars from "./pages/Old-and-New-Cars";
 
 import "./styles/style.css";
+import LifeOfCars from "./pages/Life-Of-Cars";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +23,16 @@ const router = createBrowserRouter([
         path: "/sports-cars",
         element: <SportsCars />,
       },
+      {
+        path: "/Old-and-New-Cars",
+        element: <OldandNewCars />
+      },
+      {
+        path: "/Life-Of-Cars",
+        element:<LifeOfCars />
+      },
     ],
+
   },
 ]);
 
