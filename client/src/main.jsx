@@ -11,7 +11,6 @@ import LifeOfCars from "./pages/LifeOfCars";
 import Chatelectriccars from "./pages/Chatelectriccars";
 
 import "./styles/style.css";
-import LifeOfCars from "./pages/Life-Of-Cars";
 
 const router = createBrowserRouter([
   {
