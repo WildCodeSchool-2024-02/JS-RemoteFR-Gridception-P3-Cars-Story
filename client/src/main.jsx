@@ -10,9 +10,7 @@ import OldandNewCars from "./pages/OldandNewCars";
 import LifeOfCars from "./pages/LifeOfCars";
 import Chatelectriccars from "./pages/Chatelectriccars";
 
-
 import "./styles/style.css";
-import LifeOfCars from "./pages/Life-Of-Cars";
 
 const router = createBrowserRouter([
   {
@@ -27,20 +25,18 @@ const router = createBrowserRouter([
         element: <SportsCars />,
       },
       {
-
-        path:"/Old-and-New-Cars",
-        element: <OldandNewCars />
+        path: "/Old-and-New-Cars",
+        element: <OldandNewCars />,
       },
       {
-        path:"/Life-Of-Cars",
-        element: <LifeOfCars />
+        path: "/Life-Of-Cars",
+        element: <LifeOfCars />,
       },
       {
-        path:"/Chat-electric-cars",
-        element: <Chatelectriccars />
+        path: "/Chat-electric-cars",
+        element: <Chatelectriccars />,
       },
     ],
-
   },
 ]);
 

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 #HomeContainer {
   font-size: 24px;
@@ -22,7 +21,7 @@
     min-height: 70vh;
     display: flex;
     flex-direction: space-between;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
   }
@@ -32,10 +31,8 @@
     align-items: center;
     width: 100%;
   }
-  
-  footer p{
+
+  footer p {
     text-align: center;
   }
-   
 }
-

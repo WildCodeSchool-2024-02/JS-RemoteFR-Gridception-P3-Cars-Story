@@ -15,14 +15,16 @@ export default function Home() {
         </section>
         <section id="carousel-old-new-cars">
           <Link to="/Old-and-New-Cars">Old and New CArs</Link>
-          </section>
+        </section>
 
         <section id="Life-Of-Cars">
           <Link to="/Life-Of-Cars">Life Of Cars</Link>
-          </section>
+        </section>
 
         <section id="Chat-electric-cars">
-        <Link to="/Chat-electric-cars">Chat with me about electric cars (with respect)</Link>
+          <Link to="/Chat-electric-cars">
+            Chat with me about electric cars (with respect)
+          </Link>
         </section>
       </main>
 
