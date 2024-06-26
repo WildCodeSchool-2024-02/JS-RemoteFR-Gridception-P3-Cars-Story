@@ -12,6 +12,7 @@ import Chatelectriccars from "./pages/Chatelectriccars";
 
 
 import "./styles/style.css";
+import LifeOfCars from "./pages/Life-Of-Cars";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
         element: <SportsCars />,
       },
       {
+
         path:"/Old-and-New-Cars",
         element: <OldandNewCars />
       },
@@ -38,6 +40,7 @@ const router = createBrowserRouter([
         element: <Chatelectriccars />
       },
     ],
+
   },
 ]);
 

@@ -13,7 +13,6 @@ export default function Home() {
         <section id="carousel-sports-cars">
           <Link to="/sports-cars">Sports Cars</Link>
         </section>
-
         <section id="carousel-old-new-cars">
           <Link to="/Old-and-New-Cars">Old and New CArs</Link>
           </section>
