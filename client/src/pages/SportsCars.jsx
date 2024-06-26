@@ -8,7 +8,7 @@ export default function SportsCars() {
       </nav>
       <h1>SportsCars</h1>
 
-      <p>SportsCars Page</p>
+      <p>SportsCars </p>
     </div>
   );
 }
