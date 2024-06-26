@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 
-
 export default function oldandNewCars() {
   return (
     <div id="Old-and-New-Cars-Container">
