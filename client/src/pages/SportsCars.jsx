@@ -1,14 +1,28 @@
 import { Link } from "react-router-dom";
 
+import "../styles/SportsCars.css";
+
+import Cars from "../assets/images/duesenberg-speedster.jpg";
+
 export default function SportsCars() {
   return (
-    <div id="SportsCarsContainer">
-      <nav>
-        <Link to="/">Accueil</Link>
-      </nav>
+    <main id="SportsCarsContainer">
       <h1>SportsCars</h1>
 
-      <p>SportsCars </p>
-    </div>
+      <section id="infos">
+        <div className="img-container">
+          <img src={Cars} alt="" />
+        </div>
+
+        <p>Modèle : Duesenberg Speedster</p>
+
+        <p>Prix moyen : $400.000</p>
+      </section>
+
+      <section id="links">
+        <Link to="/sports-cars/1/security">Sécurité</Link>
+        <Link to="/sports-cars/1/tuning">Personnalisation</Link>
+      </section>
+    </main>
   );
 }
