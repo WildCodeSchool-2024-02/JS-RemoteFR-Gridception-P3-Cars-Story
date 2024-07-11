@@ -7,7 +7,11 @@
 
   header {
     text-align: center;
-    background-color: rgb(95, 105, 242);
+    background-color: rgb(24, 102, 219);
+  }
+
+   h1, h2 {
+    color:aqua; 
   }
 
   nav {
@@ -18,7 +22,7 @@
       text-decoration: none;
       text-transform: uppercase;
       font-weight: 900;
-      color: goldenrod;
+      color: rgb(224, 248, 8);
     }
   }
 

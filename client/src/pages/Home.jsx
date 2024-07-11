@@ -3,6 +3,7 @@ import "../styles/Home.css";
 
 export default function Home() {
   return (
+    
     <main id="HomeContainer">
       <section id="carousel-sports-cars">
         <Link to="/sports-cars">Sports Cars</Link>
