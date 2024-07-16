@@ -1,8 +1,8 @@
 import { Link, Outlet } from "react-router-dom";
-import ReactPlayer from 'react-player';
+import ReactPlayer from "react-player";
 
 import video from "./assets/video.mp4";
-import logo from "./assets/images/logo.png"
+import logo from "./assets/images/logo.png";
 
 import "./App.css";
 
@@ -21,9 +21,7 @@ function App() {
           <Link to="/life-of-cars">Life of Cars</Link>
           <Link to="/chat-electric-cars">Chat</Link>
         </nav>
-
       </header>
-      
 
       <Outlet />
 

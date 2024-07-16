@@ -8,7 +8,7 @@
   h1 {
     width: 115%;
     text-align: center;
-    color:rgb(156, 58, 74)
+    color: rgb(156, 58, 74);
   }
 
   #infos {
@@ -24,11 +24,10 @@
   .img-container {
     width: 400px;
     height: 210px;
-    
+
     img {
       width: 100%;
       height: auto;
-      
     }
   }
 }
