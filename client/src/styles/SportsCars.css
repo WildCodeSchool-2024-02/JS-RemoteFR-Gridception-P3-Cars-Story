@@ -21,6 +21,19 @@
     flex-direction: column;
   }
 
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
   .img-container {
     width: 400px;
     height: 210px;

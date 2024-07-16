@@ -22,7 +22,7 @@ export default function OldandNewCars() {
       description:
         "New Car ,The three-cylinder thermal engine fitted to the BMW i8 produces 170 kW (231 hp) and drives the rear wheels, while the electric machine with a power of 96 kW (131 hp), ",
       description2:
-        " 1.5 HYBRID 374 A - Hybride essence electrique - Boîte automatique",
+        " 1.5 HYBRID 374 A -Gasoline electric hybrid - Automatic transmission ",
       description3:
         "Its new price is 141,950 euros for the coupes and 156,950 euros for the roadster.",
     },

@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 import "../styles/SportsCars.css";
 
 import duesenberg from "../assets/images/duesenberg-speedster.jpg";
@@ -47,10 +45,11 @@ export default function SportsCars() {
           far.
         </p>
       </div>
-      <div id="links">
-        <Link to="/sports-cars/1/security">Sécurity</Link>
-        <Link to="/sports-cars/1/tuning">Cars customs</Link>
-      </div>
+
+      <a href="https://www.economie.gouv.fr/dgccrf/Publications/Vie-pratique/Fiches-pratiques/Vehicule-automobile-controle-technique" className="button">Security</a>
+
+      <a href="https://www.mtk-tuning.com/" className="button">Cars Customs</a>
+      
     </main>
   );
 }

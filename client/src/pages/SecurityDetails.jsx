@@ -22,7 +22,7 @@ export default function SecurityDetails() {
         pollution, noise level
       </p>
 
-      <h2>Crach </h2>
+      <h2>Technical Control in France </h2>
 
       <img src={I4530} alt="" />
     </div>
