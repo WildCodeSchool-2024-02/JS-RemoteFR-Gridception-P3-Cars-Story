@@ -1,15 +1,16 @@
 import "../styles/TuningDetails.css";
 
-import bmwi8 from "../assets/images/bmwi8.jpg";
+import DodgeCharger from "../assets/images/DodgeCharger.jpg";
 
 export default function TuningDetails() {
   return (
     <div id="TuningDetailsContainer">
       <h1>TuningDetails</h1>
 
-      <p>TuningDetails Page</p>
+      <p>prices varying from a little over $41,000 to over $108,000, 
+        and a horsepower varying from 300 to 807 horsepower</p>
 
-      <img src={bmwi8} alt="" />
+      <img src={DodgeCharger} alt="" />
     </div>
   );
 }
