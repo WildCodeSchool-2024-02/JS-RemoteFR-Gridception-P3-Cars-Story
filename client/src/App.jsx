@@ -1,4 +1,8 @@
 import { Link, Outlet } from "react-router-dom";
+import ReactPlayer from "react-player";
+
+import video from "./assets/video.mp4";
+import logo from "./assets/images/logo.png";
 
 import "./App.css";
 
@@ -6,9 +10,10 @@ function App() {
   return (
     <>
       <header>
-        <h1>Cars</h1>
-        <h2>Dream or Necessity</h2>
+        <ReactPlayer url={video} playing loop />
+        <img src={logo} alt="Car Story Logo" />
 
+        <ReactPlayer url={video} playing loop />
         <nav>
           <Link to="/">Home</Link>
           <Link to="/sports-cars">Sports Cars</Link>

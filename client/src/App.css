@@ -2,15 +2,50 @@
 
 #root {
   display: grid;
-  grid-template-rows: 20% 70% 10%;
-  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  background-color: #ffd8be;
+
+  h1,
+  h2 {
+    color: #2980b9;
+  }
 
   header {
+    display: grid;
     text-align: center;
-    background-color: rgb(95, 105, 242);
+    background-color: #2980b9;
+    justify-content: space-between;
+  }
+
+  header div {
+    text-align: center;
+    object-fit: cover;
+    object-position: center;
+    z-index: 5;
+  }
+
+  header div:nth-of-type(1) {
+    grid-row: 1 / 5;
+    grid-column: 1 /2;
+  }
+
+  header img {
+    grid-column: 2 / 3;
+    grid-row: 1 / 5;
+    height: 360px;
+  }
+
+  header div:nth-of-type(2) {
+    grid-row: 1 / 5;
+    grid-column: 3 / 4;
   }
 
   nav {
+    grid-row: 5 / 6;
+    grid-column: 1 / 4;
+    padding: 1rem 0;
+
     display: flex;
     justify-content: space-around;
 
@@ -18,7 +53,7 @@
       text-decoration: none;
       text-transform: uppercase;
       font-weight: 900;
-      color: goldenrod;
+      color: rgb(224, 248, 8);
     }
   }
 
@@ -29,8 +64,9 @@
     align-items: center;
 
     svg {
-      width: 100px;
-      height: 100px;
+      width: 50px;
+      height: 50px;
+      fill: #2980b9;
     }
   }
 }

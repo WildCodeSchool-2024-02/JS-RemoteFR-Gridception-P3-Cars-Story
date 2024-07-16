@@ -1,0 +1,8 @@
+#ChatElectricCarsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div #h2 {
+  text-align: center;
+}
