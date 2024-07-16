@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 import "../styles/TuningDetails.css";
 
 import bmwi8 from "../assets/images/bmwi8.jpg";
@@ -11,7 +9,7 @@ export default function TuningDetails() {
 
       <p>TuningDetails Page</p>
 
-      <img src="bmwi8" alt="" />
+      <img src={bmwi8} alt="" />
     </div>
   );
 }
