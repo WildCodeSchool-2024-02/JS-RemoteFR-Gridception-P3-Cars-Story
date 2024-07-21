@@ -6,7 +6,17 @@ import f1 from "../assets/images/f1.jpg";
 export default function SportsCars() {
   return (
     <main id="SportsCarsContainer">
+
+<a href="https://www.mtk-tuning.com/" className="button">Customs</a>
+
+<a href="https://www.economie.gouv.fr/dgccrf/Publications/Vie-pratique/Fiches-pratiques/Vehicule-automobile-controle-technique" className="button">Security</a>
+
+
+
       <h1>SportsCars</h1>
+
+     
+      
 
       <div id="infos">
         <div className="img-container">
@@ -46,9 +56,6 @@ export default function SportsCars() {
         </p>
       </div>
 
-      <a href="https://www.economie.gouv.fr/dgccrf/Publications/Vie-pratique/Fiches-pratiques/Vehicule-automobile-controle-technique" className="button">Security</a>
-
-      <a href="https://www.mtk-tuning.com/" className="button">Cars Customs</a>
       
     </main>
   );
