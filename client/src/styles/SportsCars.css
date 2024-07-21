@@ -4,7 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  font-size:larger;
+  font-size: larger;
 
   h1 {
     width: 115%;
@@ -23,8 +23,6 @@
     flex-direction: column;
   }
 
-  
-  
   a.button {
     font-size: 1.6rem;
     margin: 0 400px;
@@ -32,12 +30,11 @@
     font-size: 20px;
     color: rgb(51, 42, 177);
     border-radius: 1px;
-    background-color:rgb(196, 171, 243);
+    background-color: rgb(196, 171, 243);
     background-size: 5px 5px;
     width: 100px;
     height: 50px;
   }
-
 
   .img-container {
     width: 400px;
@@ -47,9 +44,7 @@
     img {
       width: 100%;
       height: auto;
-       border-radius: 5%;
-       
-
+      border-radius: 5%;
     }
   }
 }

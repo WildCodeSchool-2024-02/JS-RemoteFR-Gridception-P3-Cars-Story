@@ -1,24 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 #LifeCars {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 h1 {
-    text-align:right;
-
+  text-align: right;
 }
 
 img {
-    display:block;
-    margin: auto;
-    
+  display: block;
+  margin: auto;
 }
- 
 
 p {
-    font-weight: bold;
-  }
-
- 
+  font-weight: bold;
+}

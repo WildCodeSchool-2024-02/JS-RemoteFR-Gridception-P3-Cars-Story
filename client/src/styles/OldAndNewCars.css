@@ -1,5 +1,5 @@
 #Old-and-New-Cars-Container {
-  font-size:larger;
+  font-size: larger;
   margin: 2rem auto;
   display: flex;
   flex-direction: column;
@@ -28,12 +28,12 @@
 
   section {
     h1 {
-      text-align:center;
+      text-align: center;
     }
-  
+
     img {
       width: 50rem;
-      position:sticky;
+      position: sticky;
       top: 38%;
       left: 38%;
       max-width: 70%;
