@@ -15,7 +15,6 @@
   margin-bottom: 30px;
   display: flex;
   align-items: flex-start;
-
 }
 
 .content-image {
@@ -55,7 +54,6 @@
 .link-button:hover {
   background-color: #0056b3;
 }
-
 
 @media (max-width: 600px) {
   .content-image {
