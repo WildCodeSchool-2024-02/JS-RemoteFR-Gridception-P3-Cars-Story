@@ -7,12 +7,17 @@
   justify-content: center;
   gap: 2rem;
 
+  section .p {
+    background-color: aqua;
+  }
+
   section:first-of-type {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     gap: 2rem;
+    background-color: rgb(234, 243, 109);
 
     button {
       font-size: 1.3rem;

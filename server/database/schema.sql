@@ -4,6 +4,13 @@ CREATE TABLE `user` (
     password varchar(255) not null
 );
 
+CREATE TABLE chat_table (
+id INT AUTO_INCREMENT PRIMARY KEY,
+TCHAT TEXT,
+itchat_commentaire TEXT,
+`Tell me and chat (With respect)` TEXT
+);
+
 -- CREATE TABLE `brand` (
 --     `id` int(11) NOT NULL AUTO_INCREMENT,
 --     `name` varchar(255) NOT NULL,
@@ -77,12 +84,7 @@ CREATE TABLE `user` (
 --     FOREIGN KEY (inspection_id) REFERENCES inspections (id)
 -- );
 
--- -- CREATE TABLE chat_table (
--- --     id INT AUTO_INCREMENT PRIMARY KEY,
--- --     TCHAT TEXT,
--- --     itchat_commentaire TEXT,
--- --     `Tell me and chat (With respect)` TEXT
--- -- );
+
 
 -- CREATE TABLE tuning_shops (
 --     id INT AUTO_INCREMENT PRIMARY KEY,

@@ -1,19 +1,77 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-#LifeCars {
+.life-of-cars {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.life-of-cars h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.content-block {
+  margin-bottom: 30px;
   display: flex;
-  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
-h1 {
-  text-align: right;
+.content-image {
+  width: 20%;
+  margin-right: 20px;
 }
 
-img {
-  display: block;
-  margin: auto;
+.content-text {
+  flex: 1;
+  max-width: 60%;
+  font-size: larger;
 }
 
-p {
-  font-weight: bold;
+.content-text p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.button-container {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: normal;
+}
+
+.link-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+  font-size: 1em;
+}
+
+.link-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .content-image {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.content-image {
+  width: 20%;
+  margin-right: 0 0 0 15px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border-radius: 5%;
+}
+
+.content-text {
+  max-width: 25%;
 }
